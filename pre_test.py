@@ -116,7 +116,7 @@ elif op == 'W' or op == 'w':
 		# extract the data
 		extractlines(file)
 		# open the file in terminal to view
-		os.system('less sub__SRR7145317.fastq.csv')
+		os.system('type sub__SRR7145317.fastq.csv')
 	# if file not found
 	else:
 		print("File not found")
